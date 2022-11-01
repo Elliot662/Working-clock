@@ -1,4 +1,4 @@
-setInterval(theTime, 1000);
+setInterval(theTime, 100)
 function theTime() {
     let time = new Date()
     let hour = time.getHours()

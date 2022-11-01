@@ -1,0 +1,27 @@
+*{
+    background-color:  snow;
+}
+/* #clock{
+    font-size: 100px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+#clock{
+    font-size: 100px;
+    font-weight: 700;
+    position: relative;
+    animation-name: move;
+    animation-duration: 20s;
+    animation-iteration-count: 999999;
+}
+@keyframes move {
+    0%   {left:0px; top:0px;}
+    25%  {left:700px; top:0px;}
+    50%  {left:700px; top:500px;}
+    75%  {left:0px; top:500px;}
+    100% {left:0px; top:0px;}
+  }
